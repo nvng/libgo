@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cls">
+      <UniqueIdentifier>{1c9ba508-c5d2-48bb-a7de-06ff70bdd9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{d3a40a72-cb4d-45dd-9465-fc443f7de3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="context">
+      <UniqueIdentifier>{309fb78f-81df-4dd9-a521-227feae287e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{36a25fa7-e98a-4080-8179-df396e370746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="defer">
+      <UniqueIdentifier>{ed07ff1c-f1ca-4b63-85f8-ae9ca66aa5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="netio">
+      <UniqueIdentifier>{dd928234-61ab-4ece-a68b-6105001b5425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pool">
+      <UniqueIdentifier>{f86a8dde-5233-4129-95f4-e92a291ef186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scheduler">
+      <UniqueIdentifier>{43d8416d-8294-485a-bbe5-d51769938be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sync">
+      <UniqueIdentifier>{b618365c-9944-4d1b-9170-33fc6858ba2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task">
+      <UniqueIdentifier>{2326692e-6702-43b7-afc7-e663ec89c1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{1e8a937a-a7cc-4fcb-936d-62d6557dd1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="context\fiber">
+      <UniqueIdentifier>{45219024-2e69-45b1-9ae7-e4569ed70ca3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cls\co_local_storage.cpp">
+      <Filter>cls</Filter>
+    </ClCompile>
+    <ClCompile Include="common\config.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\error.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="context\fcontext.cpp">
+      <Filter>context</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\debugger.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="defer\defer.cpp">
+      <Filter>defer</Filter>
+    </ClCompile>
+    <ClCompile Include="timer\timer.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="task\task.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="sync\co_condition_variable.cpp">
+      <Filter>sync</Filter>
+    </ClCompile>
+    <ClCompile Include="sync\co_mutex.cpp">
+      <Filter>sync</Filter>
+    </ClCompile>
+    <ClCompile Include="sync\co_rwmutex.cpp">
+      <Filter>sync</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler\processer.cpp">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler\scheduler.cpp">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="pool\async_coroutine_pool.cpp">
+      <Filter>pool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cls\co_local_storage.h">
+      <Filter>cls</Filter>
+    </ClInclude>
+    <ClInclude Include="common\any.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\anys.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\clock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\dbg_timer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\deque.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\error.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\lock_free_ring_queue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\spinlock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\syntax_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\timer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ts_queue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="context\context.h">
+      <Filter>context</Filter>
+    </ClInclude>
+    <ClInclude Include="context\fcontext.h">
+      <Filter>context</Filter>
+    </ClInclude>
+    <ClInclude Include="context\fiber\context.h">
+      <Filter>context\fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\debugger.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\listener.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="defer\defer.h">
+      <Filter>defer</Filter>
+    </ClInclude>
+    <ClInclude Include="timer\timer.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="task\task.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="sync\channel.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="sync\co_condition_variable.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="sync\co_mutex.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="sync\co_rwmutex.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\processer.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\ref.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\scheduler.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler\timer_suspend.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="pool\async_coroutine_pool.h">
+      <Filter>pool</Filter>
+    </ClInclude>
+    <ClInclude Include="pool\connection_pool.h">
+      <Filter>pool</Filter>
+    </ClInclude>
+    <ClInclude Include="coroutine.h" />
+    <ClInclude Include="libgo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="common\cmake_config.h.in">
+      <Filter>common</Filter>
+    </None>
+  </ItemGroup>
+</Project>
